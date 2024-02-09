@@ -18,19 +18,22 @@ body{
 .container{
     width: 19rem;
     height: 24rem;
-    border: solid 1px #ffff;
-    border-radius: 3px;
+    border: none;
+    border-radius: 8px;
+    background-color: #b9eded;
 }
 
 .container > img{
     width: 100%;
     height: 75%;
+    border-radius: 8px 8px;
 } 
 
 .container > p{
     width: 100%;
     height: 25%;
     text-align: center;
+    color: #222;
 }
 
 #btn-get-api{
@@ -52,4 +55,8 @@ footer{
 header{
     font-size : 1.5rem;
     margin-bottom: 2rem;
+    font-family: Arial #ffffff; 
+    font-weight: bold; 
+    font-size: 30px; 
+    text-shadow: -1px 0 #b9eded, 0 1px #b9eded, 1px 0 #b9eded, 0 -1px #b9eded;
 }
